@@ -1,6 +1,6 @@
 {
-  "version": "1.0.2",
-  "downloadUrl": "https://github.com/Wuiserous/widget-studio/releases/download/v1.0.2/Widget-Studio-Setup-1.0.2.exe",
-  "sha256": "a7ed504ad568f5aaff647732df0d86a28644fcbc13460367bd8b8f4aa1a2d5eb",
-  "notes": "Refined Codex collaboration with readable conversation replies, brainstorm-only turns that preserve widget files, minimal live file change counters, and improved image attachment controls."
+  "version": "1.0.3",
+  "downloadUrl": "https://github.com/Wuiserous/widget-studio/releases/download/v1.0.3/Widget-Studio-Setup-1.0.3.exe",
+  "sha256": "43cd5a1de245ddf60ee9690ba0e43440e2ddf2d5cff57d5be478780a3453410c",
+  "notes": "Improved Codex conversations with safe rendered Markdown, clear brainstorm-before-build behavior, persistent chat-only projects, and activity indicators that disappear when work finishes."
 }
