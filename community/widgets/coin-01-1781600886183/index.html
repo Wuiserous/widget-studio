@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin / 01</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="widget" id="widget">
+    <div class="grid-noise" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="signal-dot" aria-hidden="true"></span>
+        <span>COIN / 01</span>
+      </div>
+      <span class="system-status">RNG <b>ONLINE</b></span>
+    </header>
+
+    <section class="result-panel" aria-live="polite" aria-atomic="true">
+      <div class="result-copy">
+        <span class="eyebrow">LAST OUTCOME</span>
+        <h1 id="resultText">READY</h1>
+        <p id="resultDetail">PRESS FLIP TO INITIALIZE</p>
+      </div>
+
+      <button class="coin-button" id="coinButton" type="button" aria-label="Flip coin">
+        <span class="coin-scene">
+          <span class="coin" id="coin">
+            <span class="coin-face coin-heads">
+              <span class="face-index">H</span>
+              <span class="face-mark">01</span>
+              <span class="face-label">HEADS</span>
+            </span>
+            <span class="coin-face coin-tails">
+              <span class="face-index">T</span>
+              <span class="face-mark">02</span>
+              <span class="face-label">TAILS</span>
+            </span>
+          </span>
+        </span>
+      </button>
+    </section>
+
+    <section class="stats" aria-label="Flip statistics">
+      <div class="stat">
+        <span class="stat-label">HEADS</span>
+        <strong id="headsCount">00</strong>
+        <span class="meter"><i id="headsMeter"></i></span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">TAILS</span>
+        <strong id="tailsCount">00</strong>
+        <span class="meter"><i id="tailsMeter"></i></span>
+      </div>
+      <div class="stat streak-stat">
+        <span class="stat-label">STREAK</span>
+        <strong id="streakCount">00</strong>
+        <small id="streakType">--</small>
+      </div>
+    </section>
+
+    <section class="history-panel">
+      <div class="section-heading">
+        <span>SEQUENCE LOG</span>
+        <span id="totalCount">000 FLIPS</span>
+      </div>
+      <div class="history" id="history" aria-label="Recent flip history">
+        <span class="history-empty">NO DATA CAPTURED</span>
+      </div>
+    </section>
+
+    <footer class="controls">
+      <div class="shortcut">
+        <kbd>SPACE</kbd>
+        <span>TO FLIP</span>
+      </div>
+      <button class="reset-button" id="resetButton" type="button">RESET LOG</button>
+      <button class="flip-button" id="flipButton" type="button">
+        <span>FLIP COIN</span>
+        <span class="button-arrow" aria-hidden="true">+</span>
+      </button>
+    </footer>
+
+    <div
+      class="resize-zone resize-handle"
+      data-resize-handle="bottom-right"
+      data-no-drag="true"
+      aria-hidden="true"
+    ></div>
+  </main>
+  <script src="widget.js"></script>
+</body>
+</html>
