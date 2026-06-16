@@ -1,7 +1,28 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-16T09:19:15.631Z",
+  "updatedAt": "2026-06-16T09:19:53.516Z",
   "widgets": [
+    {
+      "id": "daily-signal-1781601587463",
+      "name": "Daily Signal",
+      "author": "Wuis",
+      "description": "An industrial daily habit tracker with streaks, weekly progress, and a 12-week consistency heat map.",
+      "version": "1.0.0",
+      "tags": [
+        "habit"
+      ],
+      "previewUrl": "",
+      "downloadUrl": "",
+      "files": {
+        "index.html": "https://raw.githubusercontent.com/Wuiserous/widget-studio/main/community/widgets/daily-signal-1781601587463/index.html",
+        "styles.css": "https://raw.githubusercontent.com/Wuiserous/widget-studio/main/community/widgets/daily-signal-1781601587463/styles.css",
+        "widget.js": "https://raw.githubusercontent.com/Wuiserous/widget-studio/main/community/widgets/daily-signal-1781601587463/widget.js",
+        "manifest.json": "https://raw.githubusercontent.com/Wuiserous/widget-studio/main/community/widgets/daily-signal-1781601587463/manifest.json"
+      },
+      "stars": 0,
+      "downloads": 0,
+      "updatedAt": "2026-06-16T09:19:53.182Z"
+    },
     {
       "id": "weather-lens-1781601549342",
       "name": "Weather Lens",
