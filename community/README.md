@@ -7,8 +7,12 @@ This folder is the public widget registry used by Widget Studio.
 1. Open Widget Studio.
 2. Select a completed widget.
 3. Click **Share**.
-4. Upload the generated ZIP to a GitHub release or attach it to a widget submission issue.
-5. Paste the generated registry entry from your clipboard.
+4. A ZIP package and `.registry-entry.json` file will be created.
+5. The GitHub submission issue opens with the registry entry prefilled.
+6. Drag the generated ZIP into the issue before submitting.
+7. After review, maintainers add the entry to `registry.json`; then it appears in the Community tab for everyone.
+
+Submissions do not appear instantly. The Community tab only shows approved entries from `registry.json`.
 
 ## Registry Format
 
@@ -36,4 +40,3 @@ Each package must include these files at the ZIP root:
 - `styles.css`
 - `widget.js`
 - `manifest.json`
-
