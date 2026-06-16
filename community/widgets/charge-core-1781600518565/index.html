@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Charge Core</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="widget" data-state="charging" aria-label="Battery at 72 percent, charging">
+    <div class="inner-frame" aria-hidden="true"></div>
+    <div class="frame-tab frame-tab-top" aria-hidden="true"></div>
+    <div class="frame-tab frame-tab-bottom" aria-hidden="true"></div>
+
+    <section class="core" aria-hidden="true">
+      <div class="core-well">
+        <div class="artifact-viewport">
+          <canvas id="artifactCanvas"></canvas>
+          <div class="webgl-fallback"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="readout">
+      <div class="value">
+        <strong id="chargeValue">72</strong><span>%</span>
+      </div>
+      <div class="state">
+        <i aria-hidden="true"></i><span id="stateText">CHARGING</span>
+      </div>
+      <div class="rail" aria-hidden="true">
+        <div class="rail-fill" id="levelFill"></div>
+        <div class="rail-slats"></div>
+      </div>
+      <p id="detailText">48 MIN TO FULL</p>
+    </section>
+  </main>
+  <script src="widget.js"></script>
+</body>
+</html>
