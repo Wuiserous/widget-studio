@@ -1,0 +1,52 @@
+{
+  "id": "weather-lens-1781601549342",
+  "name": "Weather Lens",
+  "description": "A professional weather widget with current-location weather sync, sculpted Three.js artifacts, and procedural sky scenes.",
+  "entry": "index.html",
+  "activeSize": "smallest",
+  "sizes": {
+    "smallest": {
+      "width": 260,
+      "height": 180
+    },
+    "small": {
+      "width": 340,
+      "height": 260
+    },
+    "mid": {
+      "width": 420,
+      "height": 420
+    },
+    "large": {
+      "width": 640,
+      "height": 520
+    }
+  },
+  "prompt": "Create a stunning unique and creative weather widget, minimal, clean and creative, should only show whats required, no clutter, simple but awesome. should be draggable and resizable, i should also be able to change its color pallete.",
+  "status": "ready",
+  "version": 20,
+  "createdAt": "2026-06-13T05:52:08.566Z",
+  "updatedAt": "2026-06-16T09:18:53.434Z",
+  "conversation": [],
+  "codexThreadId": "019ebf89-a553-7620-a9b4-9449ab8262b3",
+  "error": "",
+  "surface": {
+    "transparent": true,
+    "clipToRoundedCorners": true
+  },
+  "layout": {
+    "snap": true,
+    "autoAlign": true,
+    "dragMode": "managed",
+    "snapDistance": 24,
+    "spacing": 20,
+    "align": [
+      "edges",
+      "horizontal-center",
+      "vertical-center"
+    ]
+  },
+  "widgetLaunched": false,
+  "windowBounds": null,
+  "overlayMode": "desktop-widget"
+}
