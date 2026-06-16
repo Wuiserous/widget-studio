@@ -1,0 +1,36 @@
+{
+  "id": "coin-01-1781600886183",
+  "name": "Coin / 01",
+  "description": "An industrial dot-matrix coin flip terminal with an active pointer-driven bottom-right window resizer.",
+  "entry": "index.html",
+  "activeSize": "smallest",
+  "sizes": {
+    "smallest": {
+      "width": 260,
+      "height": 180
+    },
+    "small": {
+      "width": 340,
+      "height": 260
+    },
+    "mid": {
+      "width": 420,
+      "height": 420
+    },
+    "large": {
+      "width": 640,
+      "height": 520
+    }
+  },
+  "prompt": "create a cool widget of coin flip",
+  "status": "ready",
+  "version": 12,
+  "createdAt": "2026-06-13T07:13:10.135Z",
+  "updatedAt": "2026-06-16T08:53:01.159Z",
+  "conversation": [],
+  "codexThreadId": "019ebfd3-d3e2-7723-ac8a-a9848a35cdc3",
+  "error": "",
+  "widgetLaunched": false,
+  "windowBounds": null,
+  "overlayMode": "desktop-widget"
+}
