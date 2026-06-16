@@ -1,7 +1,28 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-16T09:08:12.736Z",
+  "updatedAt": "2026-06-16T09:19:15.631Z",
   "widgets": [
+    {
+      "id": "weather-lens-1781601549342",
+      "name": "Weather Lens",
+      "author": "Wuis",
+      "description": "A professional weather widget with current-location weather sync, sculpted Three.js artifacts, and procedural sky scenes.",
+      "version": "1.0.0",
+      "tags": [
+        "weather"
+      ],
+      "previewUrl": "",
+      "downloadUrl": "",
+      "files": {
+        "index.html": "https://raw.githubusercontent.com/Wuiserous/widget-studio/main/community/widgets/weather-lens-1781601549342/index.html",
+        "styles.css": "https://raw.githubusercontent.com/Wuiserous/widget-studio/main/community/widgets/weather-lens-1781601549342/styles.css",
+        "widget.js": "https://raw.githubusercontent.com/Wuiserous/widget-studio/main/community/widgets/weather-lens-1781601549342/widget.js",
+        "manifest.json": "https://raw.githubusercontent.com/Wuiserous/widget-studio/main/community/widgets/weather-lens-1781601549342/manifest.json"
+      },
+      "stars": 0,
+      "downloads": 0,
+      "updatedAt": "2026-06-16T09:19:15.269Z"
+    },
     {
       "id": "coin-01-1781600886183",
       "name": "Coin / 01",
