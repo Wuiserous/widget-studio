@@ -1,6 +1,6 @@
 {
-  "version": "1.0.7",
-  "downloadUrl": "https://github.com/Wuiserous/widget-studio/releases/download/v1.0.7/Widget-Studio-Setup-1.0.7.exe",
+  "version": "1.0.8",
+  "downloadUrl": "https://github.com/Wuiserous/widget-studio/releases/download/v1.0.8/Widget-Studio-Setup-1.0.8.exe",
   "sha256": "cd7f85953e9a85b95350cb3aa497b948d6cc5c0eb2d8a09490b06b2cd6a924a3",
   "notes": "Adds a GitHub-backed community widget library, one-click community installs, and share-package export for submitting widgets back to the public registry."
 }
