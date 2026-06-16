@@ -1,0 +1,36 @@
+{
+  "id": "daily-signal-1781601587463",
+  "name": "Daily Signal",
+  "description": "An industrial daily habit tracker with streaks, weekly progress, and a 12-week consistency heat map.",
+  "prompt": "create a habit tracking widget that should show me streak a heat map maybe, the widget should effectively help user to stay consistent with the habit forming doing it every single day",
+  "status": "ready",
+  "version": 7,
+  "createdAt": "2026-06-13T12:48:29.695Z",
+  "updatedAt": "2026-06-16T09:18:53.422Z",
+  "entry": "index.html",
+  "activeSize": "smallest",
+  "sizes": {
+    "smallest": {
+      "width": 260,
+      "height": 180
+    },
+    "small": {
+      "width": 340,
+      "height": 260
+    },
+    "mid": {
+      "width": 420,
+      "height": 420
+    },
+    "large": {
+      "width": 640,
+      "height": 520
+    }
+  },
+  "conversation": [],
+  "codexThreadId": "019ec106-d970-7c72-879b-2be602353b92",
+  "error": "",
+  "widgetLaunched": false,
+  "windowBounds": null,
+  "overlayMode": "desktop-widget"
+}
