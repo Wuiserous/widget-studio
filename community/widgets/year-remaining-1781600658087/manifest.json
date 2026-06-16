@@ -1,0 +1,36 @@
+{
+  "id": "year-remaining-1781600658087",
+  "name": "Year Remaining",
+  "description": "An industrial real-time year countdown designed to make every passing second feel consequential.",
+  "entry": "index.html",
+  "activeSize": "smallest",
+  "sizes": {
+    "smallest": {
+      "width": 260,
+      "height": 180
+    },
+    "small": {
+      "width": 340,
+      "height": 260
+    },
+    "mid": {
+      "width": 420,
+      "height": 420
+    },
+    "large": {
+      "width": 640,
+      "height": 520
+    }
+  },
+  "prompt": "create a minimalist widget of showing year ending in real time seconds left to it, draggable and resizable it should be,",
+  "status": "ready",
+  "version": 13,
+  "createdAt": "2026-06-12T21:31:55.259Z",
+  "updatedAt": "2026-06-16T08:53:01.166Z",
+  "conversation": [],
+  "codexThreadId": "019ebdbf-b05f-7352-92b0-7f653674539f",
+  "error": "",
+  "widgetLaunched": false,
+  "windowBounds": null,
+  "overlayMode": "desktop-widget"
+}
