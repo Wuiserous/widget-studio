@@ -1,0 +1,36 @@
+{
+  "id": "charge-core-1781600518565",
+  "name": "Charge Core",
+  "description": "A functional sci-fi battery panel with balanced, contained 3D spark sizing across every preset.",
+  "prompt": "can we build a cool charging widget that shows the percentage of charge, animates when plugged to charge and unplugged and has low or full charge accorrdingly. a 3d artifact animation i want. sci-fi ish",
+  "conversation": [],
+  "status": "ready",
+  "version": 16,
+  "codexThreadId": "019ec605-ee1a-7d30-8315-299c78aa89ba",
+  "createdAt": "2026-06-14T12:05:37.009Z",
+  "updatedAt": "2026-06-16T08:53:01.158Z",
+  "entry": "index.html",
+  "activeSize": "smallest",
+  "sizes": {
+    "smallest": {
+      "width": 260,
+      "height": 180
+    },
+    "small": {
+      "width": 340,
+      "height": 260
+    },
+    "mid": {
+      "width": 420,
+      "height": 420
+    },
+    "large": {
+      "width": 640,
+      "height": 520
+    }
+  },
+  "overlayMode": "desktop-widget",
+  "error": "",
+  "widgetLaunched": false,
+  "windowBounds": null
+}
