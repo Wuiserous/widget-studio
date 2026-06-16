@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Weather Lens</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="widget" data-palette="aurora" data-weather="partly-cloudy" data-sky="day"
+    aria-label="Weather widget">
+    <div class="atmosphere" aria-hidden="true">
+      <canvas class="sky-canvas" id="skyCanvas"></canvas>
+    </div>
+
+    <header class="topbar" id="dragHandle" data-widget-drag-handle>
+      <div class="place">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 21s6-5.4 6-11a6 6 0 1 0-12 0c0 5.6 6 11 6 11Z"></path>
+          <circle cx="12" cy="10" r="2.1"></circle>
+        </svg>
+        <div>
+          <p class="location" id="location">Bengaluru</p>
+          <p class="updated" id="updated">Now</p>
+        </div>
+      </div>
+
+      <button class="palette-button" id="paletteButton" type="button"
+        aria-label="Change color palette" title="Change color palette">
+        <span class="palette-dot dot-a"></span>
+        <span class="palette-dot dot-b"></span>
+        <span class="palette-dot dot-c"></span>
+      </button>
+    </header>
+
+    <section class="hero" aria-labelledby="condition">
+      <div class="temperature-wrap">
+        <p class="temperature"><span id="temperature">24</span><sup>°</sup></p>
+        <div class="condition-copy">
+          <h1 id="condition">Partly cloudy</h1>
+          <p>Feels like <span id="feelsLike">25</span>°</p>
+        </div>
+      </div>
+
+      <div class="weather-mark" aria-hidden="true">
+        <canvas class="weather-canvas" id="weatherCanvas"></canvas>
+        <div class="webgl-fallback">
+          <span class="fallback-core"></span>
+          <span class="fallback-cloud"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="details" aria-label="Weather details">
+      <div class="detail">
+        <span class="detail-label">Wind</span>
+        <strong>12 <small>km/h</small></strong>
+      </div>
+      <div class="detail">
+        <span class="detail-label">Humidity</span>
+        <strong>68<small>%</small></strong>
+      </div>
+      <div class="detail">
+        <span class="detail-label">High / Low</span>
+        <strong>27° <small>/ 19°</small></strong>
+      </div>
+    </section>
+
+    <footer class="forecast" aria-label="Short forecast">
+      <div><span>Now</span><strong>24°</strong><i class="mini-icon partly"></i></div>
+      <div><span>2 PM</span><strong>26°</strong><i class="mini-icon sunny"></i></div>
+      <div><span>4 PM</span><strong>25°</strong><i class="mini-icon partly"></i></div>
+      <div><span>6 PM</span><strong>22°</strong><i class="mini-icon cloudy"></i></div>
+    </footer>
+
+    <div class="resize-handle" id="resizeHandle" data-widget-resize-handle="se"
+      role="separator" aria-label="Resize weather widget" aria-orientation="horizontal"
+      title="Drag to resize"></div>
+  </main>
+  <script src="widget.js"></script>
+</body>
+</html>
