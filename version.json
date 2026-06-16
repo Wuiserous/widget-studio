@@ -1,6 +1,6 @@
 {
-  "version": "1.0.8",
-  "downloadUrl": "https://github.com/Wuiserous/widget-studio/releases/download/v1.0.8/Widget-Studio-Setup-1.0.8.exe",
-  "sha256": "732ae87a97d57efc21b11c167a2501204c5ba26235867f8fbdda9008fa0f0380",
-  "notes": "Adds direct one-click GitHub publishing for shared widgets, with in-app description fields, registry updates, and live upload progress."
+  "version": "1.0.9",
+  "downloadUrl": "https://github.com/Wuiserous/widget-studio/releases/download/v1.0.9/Widget-Studio-Setup-1.0.9.exe",
+  "sha256": "fad772630ed6fbbb4f0a67236150361e9352598cbef49fccba2160b866c96e57",
+  "notes": "Fixes stale GitHub raw caching for community widgets and update checks by reading registry and manifest data through the GitHub API."
 }
