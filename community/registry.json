@@ -1,5 +1,27 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-16T00:00:00.000Z",
-  "widgets": []
+  "updatedAt": "2026-06-16T09:02:05.077Z",
+  "widgets": [
+    {
+      "id": "charge-core-1781600518565",
+      "name": "Charge Core",
+      "author": "Wuis",
+      "description": "A functional sci-fi battery panel with balanced, contained 3D spark sizing across every preset.",
+      "version": "1.0.0",
+      "tags": [
+        "3D"
+      ],
+      "previewUrl": "",
+      "downloadUrl": "",
+      "files": {
+        "index.html": "https://raw.githubusercontent.com/Wuiserous/widget-studio/main/community/widgets/charge-core-1781600518565/index.html",
+        "styles.css": "https://raw.githubusercontent.com/Wuiserous/widget-studio/main/community/widgets/charge-core-1781600518565/styles.css",
+        "widget.js": "https://raw.githubusercontent.com/Wuiserous/widget-studio/main/community/widgets/charge-core-1781600518565/widget.js",
+        "manifest.json": "https://raw.githubusercontent.com/Wuiserous/widget-studio/main/community/widgets/charge-core-1781600518565/manifest.json"
+      },
+      "stars": 0,
+      "downloads": 0,
+      "updatedAt": "2026-06-16T09:02:04.725Z"
+    }
+  ]
 }
