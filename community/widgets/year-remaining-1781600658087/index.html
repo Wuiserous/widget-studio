@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Every Second Counts</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="widget" aria-label="Seconds remaining in the current year">
+    <header class="drag-region">
+      <div class="identity">
+        <span class="signal-dot" aria-hidden="true"></span>
+        <span>YEAR</span>
+        <strong id="currentYear">2026</strong>
+      </div>
+      <div class="header-actions">
+        <span id="targetDate" class="target-date">JAN 01 / 2027</span>
+        <button id="paletteTrigger" class="palette-trigger" type="button" aria-label="Customize appearance" aria-expanded="false" title="Customize appearance">
+          <svg viewBox="0 0 20 20" aria-hidden="true">
+            <path d="M4 5h12M4 10h12M4 15h12"></path>
+            <circle cx="8" cy="5" r="1.5"></circle>
+            <circle cx="13" cy="10" r="1.5"></circle>
+            <circle cx="7" cy="15" r="1.5"></circle>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <section class="content" aria-live="off">
+      <div class="hero">
+        <span class="hero-kicker">TIME REMAINING</span>
+        <div class="value-row">
+          <strong id="secondsLeft">0</strong>
+        </div>
+        <div class="hero-caption">
+          <span>SECONDS LEFT</span>
+          <span class="nonrenewable">NON-RENEWABLE</span>
+        </div>
+      </div>
+
+      <div class="urgency">
+        <span class="pulse-core" aria-hidden="true"></span>
+        <div>
+          <strong>ANOTHER SECOND GONE.</strong>
+          <span>Spend the next one deliberately.</span>
+        </div>
+      </div>
+
+      <div class="breakdown" aria-label="Time remaining breakdown">
+        <div class="time-part"><strong id="daysLeft">0</strong><span>DAYS</span></div>
+        <div class="time-part"><strong id="hoursLeft">00</strong><span>HOURS</span></div>
+        <div class="time-part"><strong id="minutesLeft">00</strong><span>MINUTES</span></div>
+        <div class="time-part"><strong id="smallSecondsLeft">00</strong><span>SECONDS</span></div>
+      </div>
+
+      <div class="expanded-panel">
+        <p>YOU DO NOT GET THIS SECOND BACK.</p>
+        <dl>
+          <div><dt>SPENT THIS YEAR</dt><dd id="secondsSpent">0 SEC</dd></div>
+          <div><dt>POSITION</dt><dd id="dayOfYear">DAY 1 / 365</dd></div>
+          <div><dt>REMAINING</dt><dd id="weeksLeft">53 WEEKS</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <footer>
+      <span class="progress-title">YEAR CONSUMED</span>
+      <div class="progress-track" role="progressbar" aria-label="Year progress" aria-valuemin="0" aria-valuemax="100">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+      <span id="progressLabel">0%</span>
+    </footer>
+
+    <button class="resize-handle" type="button" aria-label="Drag corner to resize widget" title="Drag to resize"></button>
+  </main>
+
+  <section id="paletteMenu" class="palette-menu" role="dialog" aria-label="Appearance controls" hidden>
+    <div class="palette-heading">
+      <div><span class="panel-code">DISPLAY / 01</span><strong>APPEARANCE</strong></div>
+      <button id="paletteClose" class="palette-close" type="button" aria-label="Close appearance controls">&times;</button>
+    </div>
+    <div class="theme-presets" aria-label="Display themes">
+      <button type="button" data-palette="signal" aria-label="Signal theme"><span class="theme-preview signal"></span><span>SIGNAL</span></button>
+      <button type="button" data-palette="graphite" aria-label="Graphite theme"><span class="theme-preview graphite"></span><span>GRAPHITE</span></button>
+      <button type="button" data-palette="frost" aria-label="Frost theme"><span class="theme-preview frost"></span><span>FROST</span></button>
+      <button type="button" data-palette="void" aria-label="Void theme"><span class="theme-preview void"></span><span>VOID</span></button>
+    </div>
+    <div class="color-fields">
+      <label><span>BASE</span><input id="backgroundPicker" type="color" value="#09090a"></label>
+      <label><span>SIGNAL</span><input id="accentPicker" type="color" value="#ff3b30"></label>
+      <label><span>TYPE</span><input id="textPicker" type="color" value="#f4f4f1"></label>
+    </div>
+  </section>
+
+  <script src="widget.js"></script>
+</body>
+</html>
